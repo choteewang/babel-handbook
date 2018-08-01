@@ -2035,7 +2035,7 @@ class Foo {
 首先我们需要一个babel插件，我们将把它放在src / index.js中。
 
 ```js
-<br />module.exports = function testPlugin(babel) {
+module.exports = function testPlugin(babel) {
   return {
     visitor: {
       Identifier(path) {
